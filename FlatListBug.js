@@ -1,0 +1,1 @@
+In React Native, a subtle bug can occur when using the `FlatList` component with a large dataset and complex item renderers.  If the keyExtractor function isn't efficiently implemented or if the items are not properly optimized for rendering, it can lead to performance issues such as dropped frames or UI freezes.  This is often masked until a certain dataset size is reached.
